@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head style="background-color: grey">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de perfiles</title>
+</head>
+<body style="background-color: grey">
+    <h1>Formulario De Perfil</h1>
+
+    <form>
+        <label title="Sololectura"></label>
+        <input type="text" name="estudiante" id="estudiante" placeholder="ESTUDIANTE" readonly autocomplete>
+        <br> <br>
+        <label title="NombreCompleto">Nombre Completo: </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre completo">
+        <br> <br>
+        <label title="Email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Ingrese email">
+        <br> <br>
+        <label title="Edad">Edad: </label>
+        <input type="number" name="edad" id="edad" placeholder="Ingresar la edad">
+        <br> <br>
+        <label title="seleccion">Nacionalidad: </label>
+        <select name="seleccion" id="seleccion">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <br> <br>
+        <label title="Trabajo">Condicion Laboral</label>
+        <select>
+            <option value="Desempleado">Desempleado</option>
+            <option value="Busqueda Laboral">En Busqueda Laboral</option>
+            <option value="Trabajo Part Time">Trabajo Part Time</option>
+            <option value="Trabajo Full Time">Trabajo Full Time</option>
+        </select>
+        <br> <br>
+        <fieldset>
+            <legend> <b>Gustos Personales</b> </legend>
+            <label title="Gustos Musicales"> Gustos Musicales </label>
+            <input type="text" name="Musica" id="Musica" placeholder="Ingresar gustos musicales">
+            <br> <br>
+            <label title="Comidas">Comida Preferida</label>
+            <select>
+                <option value="Hamburguesa">Hamburguesa</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Empanadas">Empanadas</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <br> <br>
+            <label title="Boton"> Enviar Formulario</label>
+            <input type="submit" name="Boton" id="Boton">
+            <br> <br>
+            <label title="Checkbox">Guardar Datos</label>
+            <input type="checkbox" name="datos" id="datos">
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
