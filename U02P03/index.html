@@ -5,84 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #aaaaaa;
-        }
-
-        div.container {
-            overflow: auto;
-        }
-
-        header {
-            background-color: #e5e5e5;
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav {
-            float: left;
-            width: 20%;
-            text-align: center;
-        }
-
-        nav ul {
-            padding-left: 0px;
-        }
-
-        nav li {
-            list-style: none;
-        }
-
-        nav li a {
-            background-color: #e5e5e5;
-            padding: 8px;
-            margin-top: 7px;
-            display: block;
-            width: 100%;
-            color: black;
-            font-weight: 700;
-        }
-
-        main {
-            float: left;
-            width: 60%;
-            padding: 0 20px;
-        }
-
-        .right {
-            background-color: #e5e5e5;
-            float: left;
-            width: 20%;
-            padding: 15px;
-            margin-top: 7px;
-            text-align: center;
-        }
-
-        footer {
-            background-color: #e5e5e5;
-            text-align: center;
-            padding: 10px;
-            margin-top: 7px;
-        }
-
-        /* For mobile phones: */
-        @media only screen and (max-width: 620px) {
-
-            nav,
-            main,
-            .right {
-                width: 100%;
-            }
-        }
-    </style>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -91,26 +15,42 @@
         <h1> Practica 3 HTML</h1>
     </header>
 
-    <div class="left">
+    <div class="container">
         <!-- Navegacion / parte izquierda -->
         <nav>
             <ul>
-                <li><a href="#"> Inicio </a></li>
-                <li><a href="#"> Multimedia </a></li>
-                <li><a href="#"> Contacto </a></li>
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="multimedia.html"> Multimedia </a></li>
+                <li><a href="contacto.html"> Contacto </a></li>
             </ul>
         </nav>
         <!-- Parte principal -->
         <main>
             <section>
-
-                
+                <h2> Lepidoptera </h2>
+                <p>Los lepidópteros son un orden de insectos holometábolos, casi siempre voladores, conocidos comúnmente
+                    como mariposas. <br>
+                    Sus larvas se conocen como orugas y se alimentan típicamente de materia vegetal, con lo que algunas
+                    especies pueden ser plagas muy dañinas para la agricultura.
+                    Muchas especies cumplen el papel de polinizadoras de plantas y cultivos.</p>
             </section>
-
-
+            <section>
+                <h2> Colombia, país con más especies de mariposas en el mundo </h2>
+                <p> El 20 por ciento de las especies de mariposas en el mundo están en Colombia,
+                    el país con mayor diversidad de estos insectos en el planeta, según un estudio publicado este mes por el Museo de Historia Natural de Londres.</p>
+            </section>
         </main>
-
+        <!-- Navegacion / parte derecha -->
+        <div class="right">
+            <h2>Datos Interesantes</h2>
+            <p> Tienen un promedio de vida de 15 - 29 días</p>
+            <p> Hay alrededor de 150,000 especies de mariposas</p>
+        </div>
     </div>
+    <!-- pie de pagina -->
+    <footer>
+        <p>© copyright labcomI.com</p>
+    </footer>
 </body>
 
 </html>
