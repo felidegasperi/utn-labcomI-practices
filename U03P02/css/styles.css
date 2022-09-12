@@ -37,13 +37,20 @@ img{
     padding: 10px 15px;
     text-decoration: none;
     color: #fff;
+    /* este comentario, mas el del final, hacen una transicion a la hora de colocar el mouse arriba */
+    /* font-size: 1em;
+    transition: 0.3s; */
 }
 
-.nav-item:hover a{
+ .nav-item:hover a{
     background-color: #D2D79F;
     color: #000000;
     border-radius: 10px;
-}
+    /* borde abajo de la palabra, otra opcion */
+    /* background-color: #483838; */
+    /* border-bottom: 3px;
+    /* border-bottom-style: solid; */
+} 
 
 .nav-item-login a {
     color: #fff;
@@ -57,3 +64,11 @@ img{
     background-color: #483838;
     text-shadow: 2px 2px 3px #000000;
 }
+
+/* linea nav-item */
+/* ul li > a:hover {
+    transition: 0.3s;
+    font-size: 0.95em;
+    background-color: #D2D79F;
+    border-radius: 10px;
+} */
